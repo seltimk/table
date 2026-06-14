@@ -1,0 +1,131 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+ 
+/* heo section */
+
+
+h1{
+
+    color: rgb(90, 86, 32);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+p{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: rgb(53, 45, 17);
+    text-align: center;
+}
+
+
+.hero-container{
+
+    background-color: rgb(224, 30, 30);
+    padding: 50px;
+    color: aliceblue;
+
+}
+
+/* style for navbar */
+
+
+
+.nav-bar{
+
+    background-color: maroon; important
+    
+    
+    
+    
+    
+}
+
+
+
+
+.nav-list{
+    list-style-type:none;
+    display: flex;
+    padding: 25px;
+    
+}
+
+
+
+.nav-list a{
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding: 20px;
+    
+}
+.nav-container{ 
+
+      
+}
+
+/* FORM STYLING */
+
+h1{
+
+    text-align: center;
+    margin-top: 100px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 70px;
+}
+
+.Form{
+
+    background-color: maroon;
+    border-radius: 9px;
+    padding: 100px;
+    width: 50%;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: 30px;
+
+}
+
+.form-container{
+
+    margin: 200px 0 20px 600px;
+    
+}
+input{
+
+    height: 50px;
+    width: 100%;
+}
+
+button{
+
+   background-color: goldenrod;
+   height: 50px;
+   width: 100px;
+   border-radius: 15px;
+}
+
+/* menu and cards */
+
+.card-container{
+
+    display: flex;
+    margin: 100px 0 0  100px;
+    align-self: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+
+    margin: 30px;
+}
